@@ -1,0 +1,55 @@
+header {
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  float: right
+}
+
+#start-page {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 400px;
+  margin-right: 400px;
+  padding: 20px;
+  text-align: center;
+}
+
+#question-page {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 400px;
+  margin-right: 400px;
+  padding: 20px;
+  text-align: left;
+  font-size: 20px;
+  background-color: beige;
+}
+
+.button {
+  font-size: 15px;
+  margin: 5px;
+}
+
+#message {
+  margin-left: 400px;
+  margin-right: 400px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: left;
+  font-size: 20px;
+}
+
+#finished {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 400px;
+  margin-right: 400px;
+  padding: 20px;
+  text-align: left;
+}
+
+#high-score {
+  margin-top: 20px
+}

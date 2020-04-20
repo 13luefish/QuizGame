@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" , href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <title>Code Quiz</title>
+  </head>
+  <body>
+    <header>
+      <h1>Timer: <span id="timer">60</span></h1>
+      <h2><a href="./score.html">View Highscores</a></h2>
+      <h3><a href="./index.html">Restart</a></h3>
+    </header>
+    <section id="start-page">
+      <h2 id="quiz">Coding Quiz Challenge</h2>
+      <p>
+        This quiz contains four questions. Each question worth 25 points. You
+        have 60 seconds to complete it. Are you ready to take the quiz?
+      </p>
+      <button id="start">Start Quiz</button>
+    </section>
+    <section id="question-page">
+      <div class="questions">
+        <h4 id="question-numbers">Question <span id="Q#"></span> of 4</h4>
+        <p id="question-content"></p>
+      </div>
+      <div id="answers">
+        <button id="btn1" class="button"></button><br />
+        <button id="btn2" class="button"></button><br />
+        <button id="btn3" class="button"></button><br />
+        <button id="btn4" class="button"></button><br />
+      </div>
+    </section>
+    <section id="message">
+      <hr />
+      <p id="message-content"></p>
+    </section>
+    <section id="finished">
+      <h2 id="done">All Done!</h2>
+      <p>You scored <span id="score"></span> points!</p>
+      <label for="initial">Enter Your Initial: </label>
+      <input type="text" name="initial" id="initial" />
+      <button id="save">Save</button>
+      <h2 id="high-score">
+        Score History:
+      </h2>
+      <ul id="saved"></ul>
+    </section>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
